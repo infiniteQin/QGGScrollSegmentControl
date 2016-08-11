@@ -24,7 +24,7 @@
     
     [self.view addSubview:seg];
     [seg mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(0);
+        make.top.mas_equalTo(100);
         make.right.mas_equalTo(0);
         make.left.mas_equalTo(0);
         make.height.mas_equalTo(44);
@@ -52,7 +52,8 @@
     return CGSizeMake(80, 40);
 }
 
-- (CGRect)qgg_selectUnderLineFrameWithItemFrame:(CGRect)itemFrame atIndex:(NSUInteger)index {
+- (CGRect)qgg_selectUnderLineFrameWithItemFrame:(CGRect)itemFrame
+                                        atIndex:(NSUInteger)index {
     UIButton *btn = self.itemsArr[index];
     [btn.titleLabel sizeToFit];
     CGRect rect = CGRectMake(0, CGRectGetMaxY(itemFrame)-4, CGRectGetWidth(btn.titleLabel.bounds), 2);
@@ -91,7 +92,6 @@
     btn1.userInteractionEnabled = NO;
     [btn1 setTitle:title forState:UIControlStateNormal];
     [btn1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    
     [btn1 setTitleColor:[UIColor greenColor] forState:UIControlStateSelected];
 //    [btn1 sizeToFit];
     return btn1;

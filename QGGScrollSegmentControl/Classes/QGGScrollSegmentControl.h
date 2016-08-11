@@ -22,8 +22,6 @@
                    dataSrouce:(id<QGGScrollSegmentControlDataSource>)dataSource
                      delegate:(id<QGGScrollSegmentControlDelegate>)delegate;
 
-//- (CGRect)titleLabelFrameAtIndex:(NSUInteger)index;
-
 @end
 
 @protocol QGGScrollSegmentControlDataSource <NSObject>
