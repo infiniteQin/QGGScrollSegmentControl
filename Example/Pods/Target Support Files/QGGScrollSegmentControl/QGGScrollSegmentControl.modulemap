@@ -1,0 +1,6 @@
+framework module QGGScrollSegmentControl {
+  umbrella header "QGGScrollSegmentControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
