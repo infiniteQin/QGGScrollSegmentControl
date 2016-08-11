@@ -80,7 +80,8 @@
                       [self buttonWithTitle:@"222"],
                       [self buttonWithTitle:@"333"],
                       [self buttonWithTitle:@"444"],
-                      [self buttonWithTitle:@"444"],[self buttonWithTitle:@"444"]];
+                      [self buttonWithTitle:@"555"],
+                      [self buttonWithTitle:@"666"]];
     }
     return _itemsArr;
 }
