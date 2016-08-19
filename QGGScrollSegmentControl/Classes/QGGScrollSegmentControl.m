@@ -10,13 +10,15 @@
 #import "QGGScrollSegmentControlItemCell.h"
 #import <Masonry/Masonry.h>
 
+#define kDefaultItemSize (CGSizeMake(50, CGRectGetHeight(self.bounds)))
+
 static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSegControlItemCell";
 
 @interface QGGScrollSegmentControl ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, assign) id<QGGScrollSegmentControlDataSource> segDataSource;
-@property (nonatomic, assign) id<QGGScrollSegmentControlDelegate> segDelegate;
-@property (nonatomic, strong) UIView *selectedUnderLine;
+@property (nonatomic, assign) id<QGGScrollSegmentControlDelegate>   segDelegate;
+@property (nonatomic, strong) UIView                                *selectedUnderLine;
 @end
 
 @implementation QGGScrollSegmentControl
@@ -29,9 +31,7 @@ static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSe
     flowLayout.minimumLineSpacing = 0;
     flowLayout.minimumInteritemSpacing = 0;
     flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-    
     self = [super initWithFrame:frame collectionViewLayout:flowLayout];
-    
     if (self) {
         self.contentInset = UIEdgeInsetsZero;
         self.dataSource = self;
@@ -59,7 +59,6 @@ static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSe
     return 0;
 }
 
-// The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
                   cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     QGGScrollSegmentControlItemCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kQGGScrollSegmentControlItemCellIdentify forIndexPath:indexPath];
@@ -90,18 +89,12 @@ static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSe
     if ([self.segDelegate respondsToSelector:@selector(qgg_scrollSegmentControl:itemSizeAtIndex:)]) {
         return [self.segDelegate qgg_scrollSegmentControl:self itemSizeAtIndex:indexPath.row];
     }
-    return CGSizeMake(50, CGRectGetHeight(self.bounds));
+    return kDefaultItemSize;
 }
 
 #pragma mark - UICollectionViewDelegate
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    if ([self.segDelegate respondsToSelector:@selector(qgg_scrollSegmentControl:didSelectedAtIndex: preSelectIndex:)]) {
-        [self.segDelegate qgg_scrollSegmentControl:self
-                                didSelectedAtIndex:indexPath.row
-                                    preSelectIndex:self.selectedIndex];
-    }
-    _selectedIndex = indexPath.row;
-    [self updateSelectedUnderLine];
+    [self setSelectedIndex:indexPath.row];
 }
 
 -(void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
@@ -121,6 +114,7 @@ static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSe
     }
     
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:self.selectedIndex inSection:0];
+    
     UICollectionViewLayoutAttributes *attributes = [self layoutAttributesForItemAtIndexPath:indexPath];
     CGRect itemCellFrame = attributes.frame;
     
@@ -141,7 +135,6 @@ static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSe
     }
     targetFrame.origin.x = attributes.center.x - targetFrame.size.width/2;
     
-    
     [UIView animateWithDuration:0.25 animations:^{
         _selectedUnderLine.frame = targetFrame;
     } completion:^(BOOL finished) {
@@ -150,10 +143,25 @@ static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSe
 }
 
 -(void)reloadData {
+
     [_selectedUnderLine removeFromSuperview];
     _selectedUnderLine = nil;
-    _selectedIndex = 0;
+
+    if (_selectedIndex >= [self collectionView:self numberOfItemsInSection:0]) {
+        _selectedIndex = 0;
+    }
     [super reloadData];
+}
+
+
+-(void)setSelectedIndex:(NSUInteger)selectedIndex {
+    if ([self.segDelegate respondsToSelector:@selector(qgg_scrollSegmentControl:didSelectedAtIndex: preSelectIndex:)]) {
+        [self.segDelegate qgg_scrollSegmentControl:self
+                                didSelectedAtIndex:selectedIndex
+                                    preSelectIndex:_selectedIndex];
+    }
+    _selectedIndex = selectedIndex;
+    [self updateSelectedUnderLine];
 }
 
 /*

@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
     QGGScrollSegmentControl *seg = [[QGGScrollSegmentControl alloc] initWithFrame:CGRectZero dataSrouce:self delegate:self];
+    
     seg.backgroundColor = [UIColor lightGrayColor];
     
     [self.view addSubview:seg];
@@ -29,6 +30,7 @@
         make.left.mas_equalTo(0);
         make.height.mas_equalTo(44);
     }];
+    seg.selectedIndex = 1;
 }
 
 - (NSUInteger)qgg_numberOfItemsInScrollSegmentControl:(QGGScrollSegmentControl*)scrollSegmentControl{
@@ -67,6 +69,7 @@
     preBtn.selected = NO;
     UIButton *selectedBtn = self.itemsArr[index];
     selectedBtn.selected = YES;
+    NSLog(@"didSelect");
 }
 
 - (void)didReceiveMemoryWarning
