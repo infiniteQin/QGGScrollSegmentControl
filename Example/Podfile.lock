@@ -1,19 +1,19 @@
 PODS:
-  - Masonry (0.6.4)
-  - QGGScrollSegmentControl (0.1.0):
-    - Masonry (~> 0.6.4)
+  - Masonry (1.1.0)
+  - QGGScrollSegmentControl (0.1.1):
+    - Masonry
 
 DEPENDENCIES:
   - QGGScrollSegmentControl (from `../`)
 
 EXTERNAL SOURCES:
   QGGScrollSegmentControl:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
-  QGGScrollSegmentControl: 9d68768cda8819fb6f4ef661b5a7853f30b3c7f4
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  QGGScrollSegmentControl: 21962d77d50e13e73f1ebda850e8b39d62956950
 
 PODFILE CHECKSUM: 61f2c1d32f3219d51f5ac62de120c1e3352ec7d7
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.4.0

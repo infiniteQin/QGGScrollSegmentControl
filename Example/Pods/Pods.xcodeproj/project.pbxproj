@@ -7,179 +7,182 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09319DC7FF28A7E69562C0CE680CEA34 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
-		0F787EBF9071328BC31B6F6D1FDA24C7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
-		15DEB2DD31B88E5B9FCFC40763CD1F57 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A54634F5AEBEC4E0F54ED73EA7D1A40 /* QGGScrollSegmentControlItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5147E1C40FFF7A56664A98141299ADC7 /* QGGScrollSegmentControlItemCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		210E54DB4CD8F8309D1C7A1D4D563F09 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22008EFDD27946463F3137E1562F28AB /* Pods-QGGScrollSegmentControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5567E505FEEF626F775E896E54562436 /* Pods-QGGScrollSegmentControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		289B3F6C0EFD1E52723F76AC3504285B /* QGGScrollSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F041B72BD9499A38EED2580DB1D17 /* QGGScrollSegmentControl.m */; };
-		3E753C4C5C7631E962401C456802D57A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
-		401E584A250A351D34B366F63187A081 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		423C547758DEF5005C0494CBCECB4484 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		525C1EB1DF453A0E070E60844577C8DF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57B36412B5BD74147DB295928B6C0733 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B25FE8DC265E9248284275B868405EF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72D0F4CDFBCDE604CBF56FB320053766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
-		747D181536AE92CD19C540EEA3DF3305 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76BA857DD10D3199623F324E582037CC /* QGGScrollSegmentControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E243A598CC9D675911E53869FFEBB3 /* QGGScrollSegmentControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EC038E0C6FE28A10A5117EE8D698FE7 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
-		83FA429634DF5ACFE4355FA4132BCC05 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
-		942BFF65C2BB76663F3E278DFDBC339E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
-		95F38B253E62525CC55EFFA47BDD079D /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
-		9C56F82544D73673FC3A918FA3ED0A6A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
-		A06EC97EF74C2525C8FC36E1FB36023B /* Pods-QGGScrollSegmentControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 644118C4E862EF5E6A74AC26C35160DC /* Pods-QGGScrollSegmentControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A30195AF7E9E75DC2ABB0BCC48244046 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
-		A47444EBA44DFA475591C8DFC1EBDDD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
-		A65A973EEC919DB0C61C0124ABA45FF6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9F78FF51917E78579995697BA1316C1 /* QGGScrollSegmentControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8853D3999038B5500A6370C605FA126 /* QGGScrollSegmentControl-dummy.m */; };
-		AD48CE47A6023CFDD8418D29AAB186D8 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
-		AF51CE6F828399B4CAA32666182086D3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1B483470175E915F533437CCCC21290 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
-		C246E48ABEA4F6963D5E8E15D79F1DC4 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
-		C6ACED30B76CF52BEB798A320CBF0B34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D3EDE8803C2444E24055A5375E9B9B /* UIKit.framework */; };
-		D00212A2142350D22692D6EDECEFB48A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		D11F2C1C9F89043AE6690329039CF10D /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCD8D73BCE673D670BAB2672D57D2F70 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD89DF835681D08EABA793D61E60D284 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0BBEA076160D71EC938B733F5348AC1 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E641EBCA8FC60CDC04C4C12A25D5B887 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E71182863E0146E11A8DB89AE836B308 /* QGGScrollSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F839639761F0E159FF6699FF5B3498 /* QGGScrollSegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1CAB56B194E2D5A52871060C9823AAC /* QGGScrollSegmentControlItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CB767CBF3BC51EB01BE3BE52DE74B3 /* QGGScrollSegmentControlItemCell.m */; };
-		F4589C8013E23886223D3C0CD4AE5487 /* Pods-QGGScrollSegmentControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED623DD551B4383BB8D045B5E075F29F /* Pods-QGGScrollSegmentControl_Example-dummy.m */; };
-		F679E99C99A0142F9C18487EE4957661 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7DE6FBFAC50DD8F8937889527A0A36C /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
-		FBE388709AA2281EE42D90A395F1BBC5 /* Pods-QGGScrollSegmentControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C734723C1D2855810B6098D2DBA213A5 /* Pods-QGGScrollSegmentControl_Tests-dummy.m */; };
+		03F6F69E6969261800B0565D2BBEF138 /* Pods-QGGScrollSegmentControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C99E81238BC367399A500A6968EA966 /* Pods-QGGScrollSegmentControl_Tests-dummy.m */; };
+		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29158661AA92FABE3237AE682C6EA442 /* QGGScrollSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 628BC8DD7A708EAFBC759064AA1A35E4 /* QGGScrollSegmentControl.m */; };
+		38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC31C30AA1B843123575E6EBA38993C /* UIKit.framework */; };
+		432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
+		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		572E3691CD035DD5441D4675776E5C2F /* QGGScrollSegmentControlItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3371910F8C4017B9B7E3C434E0D776FD /* QGGScrollSegmentControlItemCell.m */; };
+		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
+		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
+		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F826CB452099FF629F9FDD220651736 /* Pods-QGGScrollSegmentControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8108BA384EBE0713703C6E1124C07FCB /* Pods-QGGScrollSegmentControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8135D44BA910601725C47BE78B378AF3 /* QGGScrollSegmentControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCAC15CC107AB739C162222581290A92 /* QGGScrollSegmentControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
+		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6C1600268D3791CEF24951617D738B /* Pods-QGGScrollSegmentControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 430CC788A265FC0E5BF5D23B4F7B2EF6 /* Pods-QGGScrollSegmentControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91845AA36B4E1AEF4B0D3DC145F28CB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
+		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
+		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		B10AEC77A580A9AA748CAAF4781E93BA /* Pods-QGGScrollSegmentControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B9DCB361BCF7C01E5D7CA2A37BB70 /* Pods-QGGScrollSegmentControl_Example-dummy.m */; };
+		B2B6C61B48252D3C4322FA3280ACE04E /* QGGScrollSegmentControlItemCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BA6C0A89A7F796DE46B48126DA5606 /* QGGScrollSegmentControlItemCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C451092E48C5937EC0B56493A9991865 /* QGGScrollSegmentControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CFC0B36DEE7E3CA5EB520BB20FFC47 /* QGGScrollSegmentControl-dummy.m */; };
+		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D736C7CF70B9403B42AC8956C1620792 /* QGGScrollSegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 80B5BE683FDC45B342D7A08283649E28 /* QGGScrollSegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6C0169D9E07FE2BA8C4BA4CA98896C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
+		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+		F5D040029E8C85DE6C4BB8B9C86C0ADA /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
+		FB26DE91376D0327DACE33F901EADA47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		09C6C44BC5C292431D2BC3E03954AB0F /* PBXContainerItemProxy */ = {
+		32E22BFD36D0D71D07AC2DC54ADEB321 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4C4B946E8241B11299D53802909C7AC1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
+		};
+		BF881D5C21CAC445005CFB46F58B5837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
+		};
+		EE1D58FB2563B3C10E6F2D3927FB47A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3102505A78EFE2560E19765E97BB8BB2;
 			remoteInfo = QGGScrollSegmentControl;
-		};
-		4AC6F9D3B52635F49BFC2DF592968E78 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A9A83F63385AA43314397B8DD375464B;
-			remoteInfo = Masonry;
-		};
-		5173EFDE927BF1B535FB42F0F4CF765F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A9A83F63385AA43314397B8DD375464B;
-			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A3BAE15C048570108C8D2F784748A7 /* Pods-QGGScrollSegmentControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QGGScrollSegmentControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06BA6C0A89A7F796DE46B48126DA5606 /* QGGScrollSegmentControlItemCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QGGScrollSegmentControlItemCell.h; path = QGGScrollSegmentControl/Classes/QGGScrollSegmentControlItemCell.h; sourceTree = "<group>"; };
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		09CB767CBF3BC51EB01BE3BE52DE74B3 /* QGGScrollSegmentControlItemCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QGGScrollSegmentControlItemCell.m; sourceTree = "<group>"; };
-		13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		1779F577C6595983684B63861776B855 /* Pods-QGGScrollSegmentControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QGGScrollSegmentControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DC31C30AA1B843123575E6EBA38993C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		1FB1FF3CD010CC9E6981A630AB2A0E9A /* Pods-QGGScrollSegmentControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QGGScrollSegmentControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		24D3EDE8803C2444E24055A5375E9B9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		29BB8FAA159708473A54066F68D1765D /* QGGScrollSegmentControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QGGScrollSegmentControl.xcconfig; sourceTree = "<group>"; };
-		2EBCF8FA45A85BC31B9DE4022CD064D2 /* Pods-QGGScrollSegmentControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGScrollSegmentControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		247389E0A757C1D6F0B4887B0FD655FA /* Pods-QGGScrollSegmentControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGScrollSegmentControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25A1298A87C70B4003CEB2EE548ABCFA /* Pods-QGGScrollSegmentControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QGGScrollSegmentControl_Example-resources.sh"; sourceTree = "<group>"; };
+		2B0C2A49357CD71541E42D9323D5EF4B /* Pods-QGGScrollSegmentControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QGGScrollSegmentControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
 		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		3371910F8C4017B9B7E3C434E0D776FD /* QGGScrollSegmentControlItemCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QGGScrollSegmentControlItemCell.m; path = QGGScrollSegmentControl/Classes/QGGScrollSegmentControlItemCell.m; sourceTree = "<group>"; };
+		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3F495EEC9DD155A8542F044B8FAAC40B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50E243A598CC9D675911E53869FFEBB3 /* QGGScrollSegmentControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QGGScrollSegmentControl-umbrella.h"; sourceTree = "<group>"; };
-		512EB82C5B2FDA4B280132C74FD8A984 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5147E1C40FFF7A56664A98141299ADC7 /* QGGScrollSegmentControlItemCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QGGScrollSegmentControlItemCell.h; sourceTree = "<group>"; };
+		404BF92E161FA2687818BB0786A53613 /* Pods-QGGScrollSegmentControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGScrollSegmentControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		42402CACECCEBBDFE39C1A6A32B7334B /* QGGScrollSegmentControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QGGScrollSegmentControl-prefix.pch"; sourceTree = "<group>"; };
+		430CC788A265FC0E5BF5D23B4F7B2EF6 /* Pods-QGGScrollSegmentControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QGGScrollSegmentControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4692BFCD21290C39AE5B60E518859B40 /* Pods-QGGScrollSegmentControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QGGScrollSegmentControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		512EB82C5B2FDA4B280132C74FD8A984 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		5567E505FEEF626F775E896E54562436 /* Pods-QGGScrollSegmentControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QGGScrollSegmentControl_Example-umbrella.h"; sourceTree = "<group>"; };
-		5571F289F44262373E2CA38E4300927D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58521B33B6514297FAD1E406CC69F17C /* QGGScrollSegmentControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QGGScrollSegmentControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		5CF6BC8747FED6291DEB389B341477D4 /* Pods-QGGScrollSegmentControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QGGScrollSegmentControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5EB7E653E06E07601219E8293AA11CFE /* Pods-QGGScrollSegmentControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QGGScrollSegmentControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		644118C4E862EF5E6A74AC26C35160DC /* Pods-QGGScrollSegmentControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QGGScrollSegmentControl_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6525F1C094C790BE3EAFAE71C72BC972 /* Pods-QGGScrollSegmentControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QGGScrollSegmentControl_Example.modulemap"; sourceTree = "<group>"; };
+		628BC8DD7A708EAFBC759064AA1A35E4 /* QGGScrollSegmentControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QGGScrollSegmentControl.m; path = QGGScrollSegmentControl/Classes/QGGScrollSegmentControl.m; sourceTree = "<group>"; };
 		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C99E81238BC367399A500A6968EA966 /* Pods-QGGScrollSegmentControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QGGScrollSegmentControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		6DA4DD74010FEF749B8556A5F41ED36E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		78F839639761F0E159FF6699FF5B3498 /* QGGScrollSegmentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QGGScrollSegmentControl.h; sourceTree = "<group>"; };
 		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		7F44A621BE24B87AEF75DD7193846188 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83DB4C2ACE268DC9DAA9F262E5BC3BF9 /* Pods-QGGScrollSegmentControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QGGScrollSegmentControl_Tests.modulemap"; sourceTree = "<group>"; };
-		8A646C2B84A0E34CBFA54E35249A4159 /* Pods-QGGScrollSegmentControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QGGScrollSegmentControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8F671E81F10C3F58EDC8BD685E13455C /* Pods-QGGScrollSegmentControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QGGScrollSegmentControl_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94B8CC5765BDDFC7674506C288F188F5 /* QGGScrollSegmentControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QGGScrollSegmentControl.modulemap; sourceTree = "<group>"; };
+		80B5BE683FDC45B342D7A08283649E28 /* QGGScrollSegmentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QGGScrollSegmentControl.h; path = QGGScrollSegmentControl/Classes/QGGScrollSegmentControl.h; sourceTree = "<group>"; };
+		8108BA384EBE0713703C6E1124C07FCB /* Pods-QGGScrollSegmentControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QGGScrollSegmentControl_Example-umbrella.h"; sourceTree = "<group>"; };
+		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848A22C69638D55424736A7E57530671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		86CFC0B36DEE7E3CA5EB520BB20FFC47 /* QGGScrollSegmentControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QGGScrollSegmentControl-dummy.m"; sourceTree = "<group>"; };
+		8E46369BE9559D2269464BEAB447E1A8 /* Pods-QGGScrollSegmentControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QGGScrollSegmentControl_Tests.modulemap"; sourceTree = "<group>"; };
+		8E4E7A57292C23A93E27DD1823F00693 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8FAED6C72133549BEE244F4DE17DA5A9 /* Pods-QGGScrollSegmentControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QGGScrollSegmentControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91AF8745189168E8B645F78A8FFB4881 /* QGGScrollSegmentControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QGGScrollSegmentControl.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		98672C6D3869EF202616CD29933F48B5 /* Pods-QGGScrollSegmentControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QGGScrollSegmentControl_Tests-resources.sh"; sourceTree = "<group>"; };
 		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		9B28699866366D79E079CCC08C7D4CEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		A20AC15B15A92084EFF30E66D3084DC5 /* Pods-QGGScrollSegmentControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QGGScrollSegmentControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		A4538ACB326D3773D2D556B4D01D5C2E /* Pods-QGGScrollSegmentControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QGGScrollSegmentControl_Tests-resources.sh"; sourceTree = "<group>"; };
-		A70B8BC8EDCCA5246B0C7D0A39904DB5 /* Pods-QGGScrollSegmentControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGScrollSegmentControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A8853D3999038B5500A6370C605FA126 /* QGGScrollSegmentControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QGGScrollSegmentControl-dummy.m"; sourceTree = "<group>"; };
 		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		AE9387BA7F17A281D665ED796B03E342 /* Pods_QGGScrollSegmentControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QGGScrollSegmentControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9387BA7F17A281D665ED796B03E342 /* Pods_QGGScrollSegmentControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QGGScrollSegmentControl_Tests.framework; path = "Pods-QGGScrollSegmentControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		B559D5EBB69E5E9B71E8845CB81773F6 /* Pods-QGGScrollSegmentControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGScrollSegmentControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C07185EB7F91EDB28D191C46C2C0816B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E49716E9A717F07EFE67C8C523FCC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		C69D12FB2B5088DFA28B2409CAA746B1 /* QGGScrollSegmentControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QGGScrollSegmentControl-prefix.pch"; sourceTree = "<group>"; };
 		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		C734723C1D2855810B6098D2DBA213A5 /* Pods-QGGScrollSegmentControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QGGScrollSegmentControl_Tests-dummy.m"; sourceTree = "<group>"; };
-		C860C2DDEE0CFFF3345A5D806EA258FF /* Pods_QGGScrollSegmentControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QGGScrollSegmentControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C86F4DFC90B861971BE3530B81B41EA9 /* QGGScrollSegmentControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QGGScrollSegmentControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD3F041B72BD9499A38EED2580DB1D17 /* QGGScrollSegmentControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QGGScrollSegmentControl.m; sourceTree = "<group>"; };
-		CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		D8C4C0E01D75BCEB1A77FC56A8D373D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDF193B271F581C7CF39570397935243 /* Pods-QGGScrollSegmentControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QGGScrollSegmentControl_Example-resources.sh"; sourceTree = "<group>"; };
-		EBF8B7EFDCA59FA4C22AB89D25E99C1F /* Pods-QGGScrollSegmentControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGScrollSegmentControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C860C2DDEE0CFFF3345A5D806EA258FF /* Pods_QGGScrollSegmentControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QGGScrollSegmentControl_Example.framework; path = "Pods-QGGScrollSegmentControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86F4DFC90B861971BE3530B81B41EA9 /* QGGScrollSegmentControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QGGScrollSegmentControl.framework; path = QGGScrollSegmentControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1442C8E701A41921C5190DB692E1504 /* Pods-QGGScrollSegmentControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGScrollSegmentControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D4C653DBAA8795D1FC2FBDAB4759126F /* Pods-QGGScrollSegmentControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QGGScrollSegmentControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DCAC15CC107AB739C162222581290A92 /* QGGScrollSegmentControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QGGScrollSegmentControl-umbrella.h"; sourceTree = "<group>"; };
+		DE1B9DCB361BCF7C01E5D7CA2A37BB70 /* Pods-QGGScrollSegmentControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QGGScrollSegmentControl_Example-dummy.m"; sourceTree = "<group>"; };
+		E0ACE25137230816132B3399779A27A1 /* QGGScrollSegmentControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QGGScrollSegmentControl.modulemap; sourceTree = "<group>"; };
+		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		E8B4866F01B10F94C8D370BE149C5B5B /* Pods-QGGScrollSegmentControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QGGScrollSegmentControl_Example.modulemap"; sourceTree = "<group>"; };
 		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		ED623DD551B4383BB8D045B5E075F29F /* Pods-QGGScrollSegmentControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QGGScrollSegmentControl_Example-dummy.m"; sourceTree = "<group>"; };
+		F6959D5CF2D555A2AE23C1B329B33ABA /* Pods-QGGScrollSegmentControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGScrollSegmentControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		360C5EF5F0DAD9C2FD52014E83FDE555 /* Frameworks */ = {
+		01AF9AB99DB5E397BDF3CEE257B395F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				942BFF65C2BB76663F3E278DFDBC339E /* Foundation.framework in Frameworks */,
+				E6C0169D9E07FE2BA8C4BA4CA98896C2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39E0CF5B11CC74096DE6216D0EE0169B /* Frameworks */ = {
+		03CD45E2D10DB3C15AE2E55E1CC7E389 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E753C4C5C7631E962401C456802D57A /* Foundation.framework in Frameworks */,
-				C6ACED30B76CF52BEB798A320CBF0B34 /* UIKit.framework in Frameworks */,
+				FB26DE91376D0327DACE33F901EADA47 /* Foundation.framework in Frameworks */,
+				F5D040029E8C85DE6C4BB8B9C86C0ADA /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		483FF5322FE34EBBD35907249AC26216 /* Frameworks */ = {
+		C235DE8B4E6F8B7E21D26B7A87B8AA00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D0F4CDFBCDE604CBF56FB320053766 /* Foundation.framework in Frameworks */,
-				7EC038E0C6FE28A10A5117EE8D698FE7 /* Masonry.framework in Frameworks */,
+				91845AA36B4E1AEF4B0D3DC145F28CB7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D314D3781F046474457D4C4FAE0DAC6C /* Frameworks */ = {
+		F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A47444EBA44DFA475591C8DFC1EBDDD6 /* Foundation.framework in Frameworks */,
+				432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */,
+				38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,10 +192,20 @@
 		1C4150F6F53CDA89DF663C1715C79465 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D56535D460439567CB2EEC3D4398112 /* Pods-QGGScrollSegmentControl_Example */,
-				6D389AB6599DA225DD59C9D5DCCAEB4C /* Pods-QGGScrollSegmentControl_Tests */,
+				B96CFB06CAF66DEB5BE10D40F262E81B /* Pods-QGGScrollSegmentControl_Example */,
+				C3B06D2946D2EAF8BAEC17A9FF1A3151 /* Pods-QGGScrollSegmentControl_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C6509F017EE9F86156AB9C35E1D1E5D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9B28699866366D79E079CCC08C7D4CEE /* LICENSE */,
+				58521B33B6514297FAD1E406CC69F17C /* QGGScrollSegmentControl.podspec */,
+				8E4E7A57292C23A93E27DD1823F00693 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2464362409DA8707505E08F9C88B4496 /* Products */ = {
@@ -210,70 +223,16 @@
 			isa = PBXGroup;
 			children = (
 				6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */,
-				DD823825D4B08E2AE7068B31500D9229 /* iOS */,
+				AB02C94D765D376FFAFCAF1BEEEEE566 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		644E4AFAF99EED1C6C777A04677BD0A3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7A89BAC2F122E4413D2DB3C41077887D /* QGGScrollSegmentControl */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6D389AB6599DA225DD59C9D5DCCAEB4C /* Pods-QGGScrollSegmentControl_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3F495EEC9DD155A8542F044B8FAAC40B /* Info.plist */,
-				83DB4C2ACE268DC9DAA9F262E5BC3BF9 /* Pods-QGGScrollSegmentControl_Tests.modulemap */,
-				5CF6BC8747FED6291DEB389B341477D4 /* Pods-QGGScrollSegmentControl_Tests-acknowledgements.markdown */,
-				1779F577C6595983684B63861776B855 /* Pods-QGGScrollSegmentControl_Tests-acknowledgements.plist */,
-				C734723C1D2855810B6098D2DBA213A5 /* Pods-QGGScrollSegmentControl_Tests-dummy.m */,
-				A20AC15B15A92084EFF30E66D3084DC5 /* Pods-QGGScrollSegmentControl_Tests-frameworks.sh */,
-				A4538ACB326D3773D2D556B4D01D5C2E /* Pods-QGGScrollSegmentControl_Tests-resources.sh */,
-				644118C4E862EF5E6A74AC26C35160DC /* Pods-QGGScrollSegmentControl_Tests-umbrella.h */,
-				B559D5EBB69E5E9B71E8845CB81773F6 /* Pods-QGGScrollSegmentControl_Tests.debug.xcconfig */,
-				2EBCF8FA45A85BC31B9DE4022CD064D2 /* Pods-QGGScrollSegmentControl_Tests.release.xcconfig */,
-			);
-			name = "Pods-QGGScrollSegmentControl_Tests";
-			path = "Target Support Files/Pods-QGGScrollSegmentControl_Tests";
-			sourceTree = "<group>";
-		};
-		7A89BAC2F122E4413D2DB3C41077887D /* QGGScrollSegmentControl */ = {
-			isa = PBXGroup;
-			children = (
-				F30A1D9A991CCD8B7776E0B0410EC905 /* QGGScrollSegmentControl */,
-				FA059C8302FB08FC1CB554ABC9722672 /* Support Files */,
-			);
-			name = QGGScrollSegmentControl;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7D56535D460439567CB2EEC3D4398112 /* Pods-QGGScrollSegmentControl_Example */ = {
-			isa = PBXGroup;
-			children = (
-				D8C4C0E01D75BCEB1A77FC56A8D373D0 /* Info.plist */,
-				6525F1C094C790BE3EAFAE71C72BC972 /* Pods-QGGScrollSegmentControl_Example.modulemap */,
-				1FB1FF3CD010CC9E6981A630AB2A0E9A /* Pods-QGGScrollSegmentControl_Example-acknowledgements.markdown */,
-				8A646C2B84A0E34CBFA54E35249A4159 /* Pods-QGGScrollSegmentControl_Example-acknowledgements.plist */,
-				ED623DD551B4383BB8D045B5E075F29F /* Pods-QGGScrollSegmentControl_Example-dummy.m */,
-				8F671E81F10C3F58EDC8BD685E13455C /* Pods-QGGScrollSegmentControl_Example-frameworks.sh */,
-				DDF193B271F581C7CF39570397935243 /* Pods-QGGScrollSegmentControl_Example-resources.sh */,
-				5567E505FEEF626F775E896E54562436 /* Pods-QGGScrollSegmentControl_Example-umbrella.h */,
-				A70B8BC8EDCCA5246B0C7D0A39904DB5 /* Pods-QGGScrollSegmentControl_Example.debug.xcconfig */,
-				EBF8B7EFDCA59FA4C22AB89D25E99C1F /* Pods-QGGScrollSegmentControl_Example.release.xcconfig */,
-			);
-			name = "Pods-QGGScrollSegmentControl_Example";
-			path = "Target Support Files/Pods-QGGScrollSegmentControl_Example";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				644E4AFAF99EED1C6C777A04677BD0A3 /* Development Pods */,
+				C7E6BDE15E5D5544AD258E907FBE849A /* Development Pods */,
 				59511511C2B4BC905C933DCC67E365C4 /* Frameworks */,
 				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
 				2464362409DA8707505E08F9C88B4496 /* Products */,
@@ -309,43 +268,105 @@
 				61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */,
 				C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */,
 				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
-				AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */,
+				D253588BAFB01A953DA60C10CD597F84 /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */ = {
+		AB02C94D765D376FFAFCAF1BEEEEE566 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7F44A621BE24B87AEF75DD7193846188 /* Info.plist */,
-				3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */,
-				61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */,
-				FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */,
-				CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */,
-				13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */,
+				848A22C69638D55424736A7E57530671 /* Foundation.framework */,
+				0DC31C30AA1B843123575E6EBA38993C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B2C6A501D2C2F2EFAAB396725EE1053C /* QGGScrollSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				80B5BE683FDC45B342D7A08283649E28 /* QGGScrollSegmentControl.h */,
+				628BC8DD7A708EAFBC759064AA1A35E4 /* QGGScrollSegmentControl.m */,
+				06BA6C0A89A7F796DE46B48126DA5606 /* QGGScrollSegmentControlItemCell.h */,
+				3371910F8C4017B9B7E3C434E0D776FD /* QGGScrollSegmentControlItemCell.m */,
+				1C6509F017EE9F86156AB9C35E1D1E5D /* Pod */,
+				BB994A0A7E4741F6241E6554AEC7BBB5 /* Support Files */,
+			);
+			name = QGGScrollSegmentControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B96CFB06CAF66DEB5BE10D40F262E81B /* Pods-QGGScrollSegmentControl_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C07185EB7F91EDB28D191C46C2C0816B /* Info.plist */,
+				E8B4866F01B10F94C8D370BE149C5B5B /* Pods-QGGScrollSegmentControl_Example.modulemap */,
+				03A3BAE15C048570108C8D2F784748A7 /* Pods-QGGScrollSegmentControl_Example-acknowledgements.markdown */,
+				4692BFCD21290C39AE5B60E518859B40 /* Pods-QGGScrollSegmentControl_Example-acknowledgements.plist */,
+				DE1B9DCB361BCF7C01E5D7CA2A37BB70 /* Pods-QGGScrollSegmentControl_Example-dummy.m */,
+				D4C653DBAA8795D1FC2FBDAB4759126F /* Pods-QGGScrollSegmentControl_Example-frameworks.sh */,
+				25A1298A87C70B4003CEB2EE548ABCFA /* Pods-QGGScrollSegmentControl_Example-resources.sh */,
+				8108BA384EBE0713703C6E1124C07FCB /* Pods-QGGScrollSegmentControl_Example-umbrella.h */,
+				F6959D5CF2D555A2AE23C1B329B33ABA /* Pods-QGGScrollSegmentControl_Example.debug.xcconfig */,
+				404BF92E161FA2687818BB0786A53613 /* Pods-QGGScrollSegmentControl_Example.release.xcconfig */,
+			);
+			name = "Pods-QGGScrollSegmentControl_Example";
+			path = "Target Support Files/Pods-QGGScrollSegmentControl_Example";
+			sourceTree = "<group>";
+		};
+		BB994A0A7E4741F6241E6554AEC7BBB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DA4DD74010FEF749B8556A5F41ED36E /* Info.plist */,
+				E0ACE25137230816132B3399779A27A1 /* QGGScrollSegmentControl.modulemap */,
+				91AF8745189168E8B645F78A8FFB4881 /* QGGScrollSegmentControl.xcconfig */,
+				86CFC0B36DEE7E3CA5EB520BB20FFC47 /* QGGScrollSegmentControl-dummy.m */,
+				42402CACECCEBBDFE39C1A6A32B7334B /* QGGScrollSegmentControl-prefix.pch */,
+				DCAC15CC107AB739C162222581290A92 /* QGGScrollSegmentControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QGGScrollSegmentControl";
+			sourceTree = "<group>";
+		};
+		C3B06D2946D2EAF8BAEC17A9FF1A3151 /* Pods-QGGScrollSegmentControl_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1E49716E9A717F07EFE67C8C523FCC9 /* Info.plist */,
+				8E46369BE9559D2269464BEAB447E1A8 /* Pods-QGGScrollSegmentControl_Tests.modulemap */,
+				8FAED6C72133549BEE244F4DE17DA5A9 /* Pods-QGGScrollSegmentControl_Tests-acknowledgements.markdown */,
+				5EB7E653E06E07601219E8293AA11CFE /* Pods-QGGScrollSegmentControl_Tests-acknowledgements.plist */,
+				6C99E81238BC367399A500A6968EA966 /* Pods-QGGScrollSegmentControl_Tests-dummy.m */,
+				2B0C2A49357CD71541E42D9323D5EF4B /* Pods-QGGScrollSegmentControl_Tests-frameworks.sh */,
+				98672C6D3869EF202616CD29933F48B5 /* Pods-QGGScrollSegmentControl_Tests-resources.sh */,
+				430CC788A265FC0E5BF5D23B4F7B2EF6 /* Pods-QGGScrollSegmentControl_Tests-umbrella.h */,
+				247389E0A757C1D6F0B4887B0FD655FA /* Pods-QGGScrollSegmentControl_Tests.debug.xcconfig */,
+				D1442C8E701A41921C5190DB692E1504 /* Pods-QGGScrollSegmentControl_Tests.release.xcconfig */,
+			);
+			name = "Pods-QGGScrollSegmentControl_Tests";
+			path = "Target Support Files/Pods-QGGScrollSegmentControl_Tests";
+			sourceTree = "<group>";
+		};
+		C7E6BDE15E5D5544AD258E907FBE849A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2C6A501D2C2F2EFAAB396725EE1053C /* QGGScrollSegmentControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D253588BAFB01A953DA60C10CD597F84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */,
+				36C40591902578632718E317104564A2 /* Masonry.modulemap */,
+				3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */,
+				818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */,
+				E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */,
+				1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		C0536363BA469CB262336DA6E64AABEF /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				78F839639761F0E159FF6699FF5B3498 /* QGGScrollSegmentControl.h */,
-				CD3F041B72BD9499A38EED2580DB1D17 /* QGGScrollSegmentControl.m */,
-				5147E1C40FFF7A56664A98141299ADC7 /* QGGScrollSegmentControlItemCell.h */,
-				09CB767CBF3BC51EB01BE3BE52DE74B3 /* QGGScrollSegmentControlItemCell.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		DD823825D4B08E2AE7068B31500D9229 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */,
-				24D3EDE8803C2444E24055A5375E9B9B /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
@@ -356,144 +377,86 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F30A1D9A991CCD8B7776E0B0410EC905 /* QGGScrollSegmentControl */ = {
-			isa = PBXGroup;
-			children = (
-				C0536363BA469CB262336DA6E64AABEF /* Classes */,
-			);
-			path = QGGScrollSegmentControl;
-			sourceTree = "<group>";
-		};
-		FA059C8302FB08FC1CB554ABC9722672 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5571F289F44262373E2CA38E4300927D /* Info.plist */,
-				94B8CC5765BDDFC7674506C288F188F5 /* QGGScrollSegmentControl.modulemap */,
-				29BB8FAA159708473A54066F68D1765D /* QGGScrollSegmentControl.xcconfig */,
-				A8853D3999038B5500A6370C605FA126 /* QGGScrollSegmentControl-dummy.m */,
-				C69D12FB2B5088DFA28B2409CAA746B1 /* QGGScrollSegmentControl-prefix.pch */,
-				50E243A598CC9D675911E53869FFEBB3 /* QGGScrollSegmentControl-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QGGScrollSegmentControl";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0BCFDFD33BF4F6420473B13915E87D72 /* Headers */ = {
+		7A0B7E4C8A69388911B90672DFE97479 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B25FE8DC265E9248284275B868405EF /* MASCompositeConstraint.h in Headers */,
-				F679E99C99A0142F9C18487EE4957661 /* MASConstraint+Private.h in Headers */,
-				DCD8D73BCE673D670BAB2672D57D2F70 /* MASConstraint.h in Headers */,
-				525C1EB1DF453A0E070E60844577C8DF /* MASConstraintMaker.h in Headers */,
-				57B36412B5BD74147DB295928B6C0733 /* MASLayoutConstraint.h in Headers */,
-				A65A973EEC919DB0C61C0124ABA45FF6 /* Masonry-umbrella.h in Headers */,
-				423C547758DEF5005C0494CBCECB4484 /* Masonry.h in Headers */,
-				210E54DB4CD8F8309D1C7A1D4D563F09 /* MASUtilities.h in Headers */,
-				D11F2C1C9F89043AE6690329039CF10D /* MASViewAttribute.h in Headers */,
-				15DEB2DD31B88E5B9FCFC40763CD1F57 /* MASViewConstraint.h in Headers */,
-				401E584A250A351D34B366F63187A081 /* NSArray+MASAdditions.h in Headers */,
-				DD89DF835681D08EABA793D61E60D284 /* NSArray+MASShorthandAdditions.h in Headers */,
-				E641EBCA8FC60CDC04C4C12A25D5B887 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				747D181536AE92CD19C540EEA3DF3305 /* View+MASAdditions.h in Headers */,
-				E0BBEA076160D71EC938B733F5348AC1 /* View+MASShorthandAdditions.h in Headers */,
-				AF51CE6F828399B4CAA32666182086D3 /* ViewController+MASAdditions.h in Headers */,
+				8E6C1600268D3791CEF24951617D738B /* Pods-QGGScrollSegmentControl_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		118060AF4CC38591A509AE5EE0D19CF7 /* Headers */ = {
+		E84BF4B074C0E8E2E358375229B9BEEC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76BA857DD10D3199623F324E582037CC /* QGGScrollSegmentControl-umbrella.h in Headers */,
-				E71182863E0146E11A8DB89AE836B308 /* QGGScrollSegmentControl.h in Headers */,
-				1A54634F5AEBEC4E0F54ED73EA7D1A40 /* QGGScrollSegmentControlItemCell.h in Headers */,
+				8135D44BA910601725C47BE78B378AF3 /* QGGScrollSegmentControl-umbrella.h in Headers */,
+				D736C7CF70B9403B42AC8956C1620792 /* QGGScrollSegmentControl.h in Headers */,
+				B2B6C61B48252D3C4322FA3280ACE04E /* QGGScrollSegmentControlItemCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		614C21924D5F98CBBEF0663B72C48FF3 /* Headers */ = {
+		F3E9930C736C01D12F5733EFD1F0A948 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A06EC97EF74C2525C8FC36E1FB36023B /* Pods-QGGScrollSegmentControl_Tests-umbrella.h in Headers */,
+				8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */,
+				4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */,
+				C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */,
+				88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */,
+				7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */,
+				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
+				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
+				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
+				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
+				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
+				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
+				D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */,
+				B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */,
+				2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C3DF67510E6078B3E79EEABC33D7E1F /* Headers */ = {
+		FDADB6247973EE59D0EA71D1E8DB759F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22008EFDD27946463F3137E1562F28AB /* Pods-QGGScrollSegmentControl_Example-umbrella.h in Headers */,
+				7F826CB452099FF629F9FDD220651736 /* Pods-QGGScrollSegmentControl_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4C4B946E8241B11299D53802909C7AC1 /* QGGScrollSegmentControl */ = {
+		3102505A78EFE2560E19765E97BB8BB2 /* QGGScrollSegmentControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D7996B36A127CBE61F8972A16D0B465 /* Build configuration list for PBXNativeTarget "QGGScrollSegmentControl" */;
+			buildConfigurationList = 090F9986116E8F2C779AB29A9BED1DC8 /* Build configuration list for PBXNativeTarget "QGGScrollSegmentControl" */;
 			buildPhases = (
-				AC04FE7082E08B82DD43EF767A6E0586 /* Sources */,
-				483FF5322FE34EBBD35907249AC26216 /* Frameworks */,
-				118060AF4CC38591A509AE5EE0D19CF7 /* Headers */,
+				5E86B57DC019D9DF9EEE5BFE3181C3AC /* Sources */,
+				03CD45E2D10DB3C15AE2E55E1CC7E389 /* Frameworks */,
+				E84BF4B074C0E8E2E358375229B9BEEC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0A8B5BE2EA0A3754DA49660603C95189 /* PBXTargetDependency */,
+				229A82917B425ED0294D5B9D21A47082 /* PBXTargetDependency */,
 			);
 			name = QGGScrollSegmentControl;
 			productName = QGGScrollSegmentControl;
 			productReference = C86F4DFC90B861971BE3530B81B41EA9 /* QGGScrollSegmentControl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		66A052C90D1E6ABAB4C8BCAC96E398BF /* Pods-QGGScrollSegmentControl_Example */ = {
+		583754E761ADE4EFB392EFF424EFF56C /* Pods-QGGScrollSegmentControl_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19DC9FC2D7E8B3B0CE3923F315EFAB89 /* Build configuration list for PBXNativeTarget "Pods-QGGScrollSegmentControl_Example" */;
+			buildConfigurationList = C4B3FEDFDC2A8C9A6E95C54BAE7C3E03 /* Build configuration list for PBXNativeTarget "Pods-QGGScrollSegmentControl_Tests" */;
 			buildPhases = (
-				D77876E3D8BD99189A0FA5587E7E41EE /* Sources */,
-				360C5EF5F0DAD9C2FD52014E83FDE555 /* Frameworks */,
-				6C3DF67510E6078B3E79EEABC33D7E1F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				752C3B2642812A9FDD5D4254089574C3 /* PBXTargetDependency */,
-				36253065920D30D6DD4B138D561425ED /* PBXTargetDependency */,
-			);
-			name = "Pods-QGGScrollSegmentControl_Example";
-			productName = "Pods-QGGScrollSegmentControl_Example";
-			productReference = C860C2DDEE0CFFF3345A5D806EA258FF /* Pods_QGGScrollSegmentControl_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A9A83F63385AA43314397B8DD375464B /* Masonry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C692385904021C81058B89C8E286FF69 /* Build configuration list for PBXNativeTarget "Masonry" */;
-			buildPhases = (
-				AE5B467F4ACA3C58C804715570C7C3AC /* Sources */,
-				39E0CF5B11CC74096DE6216D0EE0169B /* Frameworks */,
-				0BCFDFD33BF4F6420473B13915E87D72 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Masonry;
-			productName = Masonry;
-			productReference = 512EB82C5B2FDA4B280132C74FD8A984 /* Masonry.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FD8EC58B00CFA76C75781298885D290F /* Pods-QGGScrollSegmentControl_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 567048E4FDE7553255B69F1C4F926522 /* Build configuration list for PBXNativeTarget "Pods-QGGScrollSegmentControl_Tests" */;
-			buildPhases = (
-				19F851814E9086C0E25FA704BFD43E5C /* Sources */,
-				D314D3781F046474457D4C4FAE0DAC6C /* Frameworks */,
-				614C21924D5F98CBBEF0663B72C48FF3 /* Headers */,
+				1A7D437991FD29F038C6479A9C14638D /* Sources */,
+				01AF9AB99DB5E397BDF3CEE257B395F1 /* Frameworks */,
+				7A0B7E4C8A69388911B90672DFE97479 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -504,14 +467,50 @@
 			productReference = AE9387BA7F17A281D665ED796B03E342 /* Pods_QGGScrollSegmentControl_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		8D949721BC36B292860122EAC0033CFF /* Pods-QGGScrollSegmentControl_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3318BF1F0FAD3D112CC4BA976D503B2 /* Build configuration list for PBXNativeTarget "Pods-QGGScrollSegmentControl_Example" */;
+			buildPhases = (
+				E609F5CACA9D096B32E9CCACCF24E2FA /* Sources */,
+				C235DE8B4E6F8B7E21D26B7A87B8AA00 /* Frameworks */,
+				FDADB6247973EE59D0EA71D1E8DB759F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC05797649D5FC3940D12E392265A0A /* PBXTargetDependency */,
+				F61DB5CEA2FAA335474927375384C1FE /* PBXTargetDependency */,
+			);
+			name = "Pods-QGGScrollSegmentControl_Example";
+			productName = "Pods-QGGScrollSegmentControl_Example";
+			productReference = C860C2DDEE0CFFF3345A5D806EA258FF /* Pods_QGGScrollSegmentControl_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D52144DE9D7255DE912490FF5A806573 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */,
+				F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */,
+				F3E9930C736C01D12F5733EFD1F0A948 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 512EB82C5B2FDA4B280132C74FD8A984 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -525,103 +524,314 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9A83F63385AA43314397B8DD375464B /* Masonry */,
-				66A052C90D1E6ABAB4C8BCAC96E398BF /* Pods-QGGScrollSegmentControl_Example */,
-				FD8EC58B00CFA76C75781298885D290F /* Pods-QGGScrollSegmentControl_Tests */,
-				4C4B946E8241B11299D53802909C7AC1 /* QGGScrollSegmentControl */,
+				D52144DE9D7255DE912490FF5A806573 /* Masonry */,
+				8D949721BC36B292860122EAC0033CFF /* Pods-QGGScrollSegmentControl_Example */,
+				583754E761ADE4EFB392EFF424EFF56C /* Pods-QGGScrollSegmentControl_Tests */,
+				3102505A78EFE2560E19765E97BB8BB2 /* QGGScrollSegmentControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19F851814E9086C0E25FA704BFD43E5C /* Sources */ = {
+		00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBE388709AA2281EE42D90A395F1BBC5 /* Pods-QGGScrollSegmentControl_Tests-dummy.m in Sources */,
+				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
+				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
+				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
+				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
+				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
+				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,
+				756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */,
+				E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */,
+				0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */,
+				8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC04FE7082E08B82DD43EF767A6E0586 /* Sources */ = {
+		1A7D437991FD29F038C6479A9C14638D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F78FF51917E78579995697BA1316C1 /* QGGScrollSegmentControl-dummy.m in Sources */,
-				289B3F6C0EFD1E52723F76AC3504285B /* QGGScrollSegmentControl.m in Sources */,
-				F1CAB56B194E2D5A52871060C9823AAC /* QGGScrollSegmentControlItemCell.m in Sources */,
+				03F6F69E6969261800B0565D2BBEF138 /* Pods-QGGScrollSegmentControl_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE5B467F4ACA3C58C804715570C7C3AC /* Sources */ = {
+		5E86B57DC019D9DF9EEE5BFE3181C3AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09319DC7FF28A7E69562C0CE680CEA34 /* MASCompositeConstraint.m in Sources */,
-				C1B483470175E915F533437CCCC21290 /* MASConstraint.m in Sources */,
-				95F38B253E62525CC55EFFA47BDD079D /* MASConstraintMaker.m in Sources */,
-				C246E48ABEA4F6963D5E8E15D79F1DC4 /* MASLayoutConstraint.m in Sources */,
-				F7DE6FBFAC50DD8F8937889527A0A36C /* Masonry-dummy.m in Sources */,
-				9C56F82544D73673FC3A918FA3ED0A6A /* MASViewAttribute.m in Sources */,
-				A30195AF7E9E75DC2ABB0BCC48244046 /* MASViewConstraint.m in Sources */,
-				0F787EBF9071328BC31B6F6D1FDA24C7 /* NSArray+MASAdditions.m in Sources */,
-				D00212A2142350D22692D6EDECEFB48A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				AD48CE47A6023CFDD8418D29AAB186D8 /* View+MASAdditions.m in Sources */,
-				83FA429634DF5ACFE4355FA4132BCC05 /* ViewController+MASAdditions.m in Sources */,
+				C451092E48C5937EC0B56493A9991865 /* QGGScrollSegmentControl-dummy.m in Sources */,
+				29158661AA92FABE3237AE682C6EA442 /* QGGScrollSegmentControl.m in Sources */,
+				572E3691CD035DD5441D4675776E5C2F /* QGGScrollSegmentControlItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D77876E3D8BD99189A0FA5587E7E41EE /* Sources */ = {
+		E609F5CACA9D096B32E9CCACCF24E2FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4589C8013E23886223D3C0CD4AE5487 /* Pods-QGGScrollSegmentControl_Example-dummy.m in Sources */,
+				B10AEC77A580A9AA748CAAF4781E93BA /* Pods-QGGScrollSegmentControl_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A8B5BE2EA0A3754DA49660603C95189 /* PBXTargetDependency */ = {
+		229A82917B425ED0294D5B9D21A47082 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = A9A83F63385AA43314397B8DD375464B /* Masonry */;
-			targetProxy = 5173EFDE927BF1B535FB42F0F4CF765F /* PBXContainerItemProxy */;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = 32E22BFD36D0D71D07AC2DC54ADEB321 /* PBXContainerItemProxy */;
 		};
-		36253065920D30D6DD4B138D561425ED /* PBXTargetDependency */ = {
+		F61DB5CEA2FAA335474927375384C1FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QGGScrollSegmentControl;
-			target = 4C4B946E8241B11299D53802909C7AC1 /* QGGScrollSegmentControl */;
-			targetProxy = 09C6C44BC5C292431D2BC3E03954AB0F /* PBXContainerItemProxy */;
+			target = 3102505A78EFE2560E19765E97BB8BB2 /* QGGScrollSegmentControl */;
+			targetProxy = EE1D58FB2563B3C10E6F2D3927FB47A4 /* PBXContainerItemProxy */;
 		};
-		752C3B2642812A9FDD5D4254089574C3 /* PBXTargetDependency */ = {
+		FAC05797649D5FC3940D12E392265A0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = A9A83F63385AA43314397B8DD375464B /* Masonry */;
-			targetProxy = 4AC6F9D3B52635F49BFC2DF592968E78 /* PBXContainerItemProxy */;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = BF881D5C21CAC445005CFB46F58B5837 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3D353FAE77A0462A9737890D7C39C8E4 /* Release */ = {
+		0E856C659AD8E4C09B9EC5557F7D727B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EBCF8FA45A85BC31B9DE4022CD064D2 /* Pods-QGGScrollSegmentControl_Tests.release.xcconfig */;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F1AF314AAE69DEE4284B7D24F00661E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1F2B05BDAA1F32F9845FBF35781F57DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AC3DD7C03436D42A89320A8A601A9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6959D5CF2D555A2AE23C1B329B33ABA /* Pods-QGGScrollSegmentControl_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Example/Pods-QGGScrollSegmentControl_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QGGScrollSegmentControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		876039171018B8DB6BB8843CF0B86FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AF8745189168E8B645F78A8FFB4881 /* QGGScrollSegmentControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QGGScrollSegmentControl/QGGScrollSegmentControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QGGScrollSegmentControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QGGScrollSegmentControl/QGGScrollSegmentControl.modulemap";
+				PRODUCT_NAME = QGGScrollSegmentControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D5D70DD147248EB5CB48131A5DEA0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1442C8E701A41921C5190DB692E1504 /* Pods-QGGScrollSegmentControl_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Tests/Pods-QGGScrollSegmentControl_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QGGScrollSegmentControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B42FEA68479FF3924BF7A52E22BAF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247389E0A757C1D6F0B4887B0FD655FA /* Pods-QGGScrollSegmentControl_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Tests/Pods-QGGScrollSegmentControl_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -633,157 +843,119 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+		9BF4E3D585D550B0B932083363D2F429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AF8745189168E8B645F78A8FFB4881 /* QGGScrollSegmentControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QGGScrollSegmentControl/QGGScrollSegmentControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QGGScrollSegmentControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QGGScrollSegmentControl/QGGScrollSegmentControl.modulemap";
+				PRODUCT_NAME = QGGScrollSegmentControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B30DD4CACE0190C651BCBBF67926B630 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		4A8B287CC456447C0579EEB071A58C20 /* Release */ = {
+		EB10B58D7003CA2D4CD5A15CE0FF4C0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29BB8FAA159708473A54066F68D1765D /* QGGScrollSegmentControl.xcconfig */;
+			baseConfigurationReference = 404BF92E161FA2687818BB0786A53613 /* Pods-QGGScrollSegmentControl_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QGGScrollSegmentControl/QGGScrollSegmentControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QGGScrollSegmentControl/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QGGScrollSegmentControl/QGGScrollSegmentControl.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = QGGScrollSegmentControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4C6B0AD38E0CBFA5EBFA8C2E93FC779C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		551CB7EBF1417FB8CDC40D43DA100862 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		985D10CADB6B131EDB0327A0C5E0097D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A70B8BC8EDCCA5246B0C7D0A39904DB5 /* Pods-QGGScrollSegmentControl_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Example/Pods-QGGScrollSegmentControl_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -792,161 +964,29 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BB3A191E935463EDF436D137B31EE865 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B559D5EBB69E5E9B71E8845CB81773F6 /* Pods-QGGScrollSegmentControl_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Tests/Pods-QGGScrollSegmentControl_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QGGScrollSegmentControl_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BEEF3039DE0A9B82309FA584BC33E5E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29BB8FAA159708473A54066F68D1765D /* QGGScrollSegmentControl.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QGGScrollSegmentControl/QGGScrollSegmentControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QGGScrollSegmentControl/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QGGScrollSegmentControl/QGGScrollSegmentControl.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = QGGScrollSegmentControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EB6538AE472FB68A6C6458A606758767 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBF8B7EFDCA59FA4C22AB89D25E99C1F /* Pods-QGGScrollSegmentControl_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QGGScrollSegmentControl_Example/Pods-QGGScrollSegmentControl_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QGGScrollSegmentControl_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19DC9FC2D7E8B3B0CE3923F315EFAB89 /* Build configuration list for PBXNativeTarget "Pods-QGGScrollSegmentControl_Example" */ = {
+		02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				985D10CADB6B131EDB0327A0C5E0097D /* Debug */,
-				EB6538AE472FB68A6C6458A606758767 /* Release */,
+				1F2B05BDAA1F32F9845FBF35781F57DB /* Debug */,
+				0E856C659AD8E4C09B9EC5557F7D727B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D7996B36A127CBE61F8972A16D0B465 /* Build configuration list for PBXNativeTarget "QGGScrollSegmentControl" */ = {
+		090F9986116E8F2C779AB29A9BED1DC8 /* Build configuration list for PBXNativeTarget "QGGScrollSegmentControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEEF3039DE0A9B82309FA584BC33E5E1 /* Debug */,
-				4A8B287CC456447C0579EEB071A58C20 /* Release */,
+				9BF4E3D585D550B0B932083363D2F429 /* Debug */,
+				876039171018B8DB6BB8843CF0B86FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -954,26 +994,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
-				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+				B30DD4CACE0190C651BCBBF67926B630 /* Debug */,
+				0F1AF314AAE69DEE4284B7D24F00661E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		567048E4FDE7553255B69F1C4F926522 /* Build configuration list for PBXNativeTarget "Pods-QGGScrollSegmentControl_Tests" */ = {
+		A3318BF1F0FAD3D112CC4BA976D503B2 /* Build configuration list for PBXNativeTarget "Pods-QGGScrollSegmentControl_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB3A191E935463EDF436D137B31EE865 /* Debug */,
-				3D353FAE77A0462A9737890D7C39C8E4 /* Release */,
+				7AC3DD7C03436D42A89320A8A601A9FE /* Debug */,
+				EB10B58D7003CA2D4CD5A15CE0FF4C0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C692385904021C81058B89C8E286FF69 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		C4B3FEDFDC2A8C9A6E95C54BAE7C3E03 /* Build configuration list for PBXNativeTarget "Pods-QGGScrollSegmentControl_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				551CB7EBF1417FB8CDC40D43DA100862 /* Debug */,
-				4C6B0AD38E0CBFA5EBFA8C2E93FC779C /* Release */,
+				9B42FEA68479FF3924BF7A52E22BAF68 /* Debug */,
+				8D5D70DD147248EB5CB48131A5DEA0DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
