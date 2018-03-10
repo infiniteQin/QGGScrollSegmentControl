@@ -11,7 +11,7 @@
 @implementation QGGScrollSegmentControlItemCell
 
 -(void)awakeFromNib {
-    
+    [super awakeFromNib];
 }
 
 @end

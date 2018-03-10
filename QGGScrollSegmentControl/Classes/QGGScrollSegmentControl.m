@@ -134,11 +134,11 @@ static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSe
         [_selectedUnderLine didMoveToSuperview];
     }
     targetFrame.origin.x = attributes.center.x - targetFrame.size.width/2;
-    
+    __weak typeof(self) wSelf = self;
     [UIView animateWithDuration:0.25 animations:^{
-        _selectedUnderLine.frame = targetFrame;
+        wSelf.selectedUnderLine.frame = targetFrame;
     } completion:^(BOOL finished) {
-        [self scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+        [wSelf scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
     }];
 }
 
