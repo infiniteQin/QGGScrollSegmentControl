@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QGGScrollSegmentControl'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A Custom Segment Control support scroll'
 
 # This description is used to generate tags and improve search results.
@@ -40,6 +40,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
 
   # s.dependency 'AFNetworking', '~> 2.3'
-    s.dependency 'Masonry', '~> 0.6.4'
+    s.dependency 'Masonry'
 
 end
