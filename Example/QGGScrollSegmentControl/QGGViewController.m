@@ -30,7 +30,7 @@
         make.left.mas_equalTo(0);
         make.height.mas_equalTo(44);
     }];
-    seg.selectedIndex = 1;
+    seg.selectedIndex = 5;
 }
 
 - (NSUInteger)qgg_numberOfItemsInScrollSegmentControl:(QGGScrollSegmentControl*)scrollSegmentControl{

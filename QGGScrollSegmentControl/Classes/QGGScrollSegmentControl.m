@@ -99,12 +99,12 @@ static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSe
 
 -(void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == self.selectedIndex) {
-        [self updateSelectedUnderLine];
+        [self updateSelectedUnderLine:NO animated:NO];
     }
 }
 
 
-- (void)updateSelectedUnderLine {
+- (void)updateSelectedUnderLine:(BOOL)scrollToCenter animated:(BOOL)animated {
     if (!_selectedUnderLine && [self.segDataSource respondsToSelector:@selector(qgg_selectUnderLineInScrollSegmentControl:)]) {
         _selectedUnderLine = [self.segDataSource qgg_selectUnderLineInScrollSegmentControl:self];
     }
@@ -135,11 +135,18 @@ static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSe
     }
     targetFrame.origin.x = attributes.center.x - targetFrame.size.width/2;
     __weak typeof(self) wSelf = self;
-    [UIView animateWithDuration:0.25 animations:^{
-        wSelf.selectedUnderLine.frame = targetFrame;
-    } completion:^(BOOL finished) {
-        [wSelf scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
-    }];
+    if (animated) {
+        [UIView animateWithDuration:0.25 animations:^{
+            wSelf.selectedUnderLine.frame = targetFrame;
+        } completion:^(BOOL finished) {
+            if (scrollToCenter) {
+                [wSelf scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+            }
+        }];
+    }else {
+        self.selectedUnderLine.frame = targetFrame;
+    }
+    
 }
 
 -(void)reloadData {
@@ -161,7 +168,7 @@ static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSe
                                     preSelectIndex:_selectedIndex];
     }
     _selectedIndex = selectedIndex;
-    [self updateSelectedUnderLine];
+    [self updateSelectedUnderLine:YES animated:YES];
 }
 
 /*

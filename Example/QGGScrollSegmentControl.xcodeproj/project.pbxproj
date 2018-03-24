@@ -61,7 +61,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		8099E6F8C010EDBD2EF8029E /* QGGScrollSegmentControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QGGScrollSegmentControl.podspec; path = ../QGGScrollSegmentControl.podspec; sourceTree = "<group>"; };
+		8099E6F8C010EDBD2EF8029E /* QGGScrollSegmentControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QGGScrollSegmentControl.podspec; path = ../QGGScrollSegmentControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		909DE8C2A9ACE8E324AF9D7D /* Pods_QGGScrollSegmentControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QGGScrollSegmentControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED6CB20C8DF99AC9EDA991C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
