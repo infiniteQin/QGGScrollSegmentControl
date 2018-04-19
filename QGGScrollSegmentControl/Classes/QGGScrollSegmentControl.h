@@ -23,6 +23,12 @@
 
 @end
 
+@interface QGGScrollSegmentControl (SelectedIndexVal)
+
+- (void)siv_updateSelectedIndex:(NSUInteger)selectedIndex;
+
+@end
+
 
 
 

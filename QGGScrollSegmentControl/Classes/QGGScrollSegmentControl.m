@@ -180,3 +180,10 @@ static NSString * const kQGGScrollSegmentControlItemCellIdentify = @"QGGScrollSe
 */
 
 @end
+@implementation QGGScrollSegmentControl (SelectedIndexVal)
+
+- (void)siv_updateSelectedIndex:(NSUInteger)selectedIndex {
+    _selectedIndex = selectedIndex;
+}
+
+@end
